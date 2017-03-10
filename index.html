@@ -59,9 +59,21 @@ h3 {
       height:25px;
   }
 
+.number{
+    margin-bottom:17px;
+}
+
+.sum{
+    margin-bottom:17px;
+}
+
+.color{
+    background-color:lightcoral
+}
+
   #showCards {
       height:300px;
-      background-color:lightcoral;
+      background-color:aliceblue;
       text-align: center;
       border-radius:0;
   }
@@ -73,7 +85,7 @@ h3 {
     <br>
   <div class="row">
     <div class="col-md-12" style="background-color:lightgrey">
-      <h1 style="text-align:center"><em><i>21 Points</i></em></h1>
+      <h1 style="text-align:center"><em><i>Black Jake / 21 Points</i></em></h1>
       <h2 style="text-align:center"> A simple Intereactive Game Realised by JavaScript </h2>
       <br>
       <p style="text-align:center">by <a class="btn btn-primary btn-lg" href="https://juliannawqy.github.io/" target="_blank" role="button"> Julianna Wu</a></p>
@@ -100,7 +112,7 @@ h3 {
         <li> If your cards add up bigger than <i id="words">21</i>, you'd be exlopded!<img src= "http://emojipedia-us.s3.amazonaws.com/cache/9f/e1/9fe1f4b45b63af38db1ef038bb8ff16e.png"> </li>
         <li> You can have at most 6 cards before you exploded. </li>
         <li> So do the computer, but you won't know whether computer has exploded or not till none of you want to "Go on" anymore.</li>
-        <li> But once you exploded, you can't call a newcard anymore and computer would generate the result</li>  
+        <li> But once you exploded, you can't call a new card anymore and computer would generate the result</li>  
     </div>
     <div class="col-md-2">
     </div>
@@ -142,7 +154,7 @@ h3 {
     </div>
     <div class="col-md-2" id="showCards">
       <div class="number">
-          10
+          
       </div>
       <div class="sum">
           16
@@ -179,33 +191,47 @@ h3 {
     <div class="col-md-2">
     </div>
     <div class="col-md-2" id="showCards">
-      <div class="number">
+      <div id="color">
+          <br>
+          <br>
+        <div class="number">
           10
-      </div>
-      <div class="sum">
+        </div>
+        <br>
+        <div class="sum">
           16
-       </div>        
+        </div>  
+      </div>      
     </div>
     <div class="col-md-1">
     </div>
     <div class="col-md-2" id="showCards">
-         <div class="number">
+      <div id="color">
+          <br>
+          <br>
+        <div class="number">
           10
-      </div>
-      <div class="sum">
+        </div>
+        <br>
+        <div class="sum">
           16
-       </div>   
+        </div>   
+      </div>
     </div>
     <div class="col-md-1">
     </div>
     <div class="col-md-2" id="showCards">
-         <div class="number">
+      <div id="color">
+          <br>
+          <br>
+        <div class="number">
           10
-      </div>
-      <div class="sum">
+        </div>
+        <br>
+        <div class="sum">
           16
-       </div>   
-    </div>
+        </div>   
+      </div>
     <div class="col-md-2">
     </div>
 </div>
